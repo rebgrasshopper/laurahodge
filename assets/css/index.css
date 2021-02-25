@@ -1,0 +1,27 @@
+:root {
+    --teal: rgb(73, 163, 163);
+    --dGray: rgb(190, 196, 195);
+    --lGray: rgb(229, 232, 233);
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url("../images/unsplash/pawel-czerwinski-vBc7xy65us8-unsplash.jpg");
+    background-size: cover;
+    color: whitesmoke;
+}
+
+h1 {
+    padding-top: 40px;
+    font-family: "Bad Script", sans-serif;
+    font-size: 5em;
+}
+
+h3 {
+    font-family: "Bad Script", sans-serif;
+}
