@@ -1,0 +1,67 @@
+.navbar {
+    padding: 0px;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: "Bad Script", sans-serif;
+    padding: 0.5rem;
+    margin-left: 10px;
+
+}
+
+#navbarNavDropdown {
+    justify-content: space-evenly;
+    padding: none;
+
+}
+
+#navbarNavDropdown li {
+    padding: 0.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    height: 100%;
+}
+
+#navbarNavDropdown li img {
+    position: absolute;
+    display: none;
+    height: 200px;
+}
+
+#red {
+    left: 0%;
+    top: -200px !important;
+
+}
+
+#orange {
+    left: 40%;
+    top: -200px !important;
+
+}
+
+#yellow {
+    left: 0%;
+    top: -210px !important;
+}
+
+#green {
+    left: 0%;
+    top: -205px !important;
+}
+
+#blue {
+    left: 0%;
+    top: -205px !important
+}
+
+#violet {
+    left: 0%;
+    top: -205px !important
+}
+
+.active {
+    background-color: #222;
+}
