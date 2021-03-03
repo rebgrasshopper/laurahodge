@@ -1,0 +1,9 @@
+.card {
+    color: black;
+    padding: 20px;
+    background-color: var(--lGray);
+}
+
+#pastWorks {
+    margin-bottom: 200px;
+}
