@@ -2,24 +2,25 @@
     --lGray: rgb(175, 175, 175);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     text-align: center;
-    letter-spacing: 5px;
     background-image: url();
-    background: url("../images/unsplash/pawel-czerwinski-vBc7xy65us8-unsplash.jpg") no-repeat center center fixed; 
+    background: url("../images/unsplash/pawel-czerwinski-vBc7xy65us8-unsplash.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: white;
 }
 
-h1{
+h1 {
     font-size: 40px;
     color: transparent;
     text-align: center;
@@ -28,7 +29,6 @@ h1{
     z-index: 100;
     font-size: 5em;
     margin: 40px auto 20px auto;
-
 }
 
 h3 {
@@ -41,18 +41,9 @@ hr {
     width: 10px;
 }
 
-.container{
+.container {
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* nav bar */
@@ -66,13 +57,11 @@ hr {
     font-family: "Bad Script", sans-serif;
     padding: 0.5rem;
     margin-left: 10px;
-
 }
 
 #navbarNavDropdown {
     justify-content: space-evenly;
     padding: none;
-
 }
 
 #navbarNavDropdown li {
@@ -92,13 +81,11 @@ hr {
 #red {
     left: 0%;
     top: -200px !important;
-
 }
 
 #orange {
     left: 40%;
     top: -200px !important;
-
 }
 
 #yellow {
