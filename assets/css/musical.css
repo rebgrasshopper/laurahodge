@@ -35,6 +35,29 @@ h2 {
     margin-left: 20px;
 }
 
+.card img {
+    width: 200px;
+    float: left;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.nonImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.text {
+    text-align: left;
+    margin-left: 40px;
+}
+
 @media only screen and (min-width: 800px) {
     .card img {
         width: 200px;
