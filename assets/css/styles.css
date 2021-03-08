@@ -52,6 +52,7 @@ hr {
     border-radius: 3px;
     background-color: var(--dGray);
     min-height: 50vh;
+    margin-bottom: 100px;
 }
 
 .main img {
