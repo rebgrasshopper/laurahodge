@@ -1,3 +1,9 @@
 .main p {
     margin-top: -20px;
 }
+
+.main img {
+    max-height: 600px;
+    width: auto;
+    object-fit: scale-down;
+}
