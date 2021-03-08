@@ -66,3 +66,31 @@ document.addEventListener("mouseout", function(event) {
 
 
 console.log("Dancer icons in menu by artist orangereebok via vecteezy.com");
+
+// hidden image opacity on scroll for teaching.html
+window.addEventListener('scroll', () => {
+    let scrollNum = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
+    scrollNum = scrollNum.toFixed(3);
+    if (scrollNum < 0.6) {
+        scrollNum = 0;
+    } else if (scrollNum < 0.7) {
+        scrollNum = 0.1;
+    } else if (scrollNum < 0.75) {
+        scrollNum = 0.2;
+    } else if (scrollNum < 0.8) {
+        scrollNum = 0.3;
+    } else if (scrollNum < 0.84) {
+        scrollNum = 0.4;
+    } else if (scrollNum < 0.87) {
+        scrollNum = 0.5;
+    } else if (scrollNum < 0.9) {
+        scrollNum = 0.6;
+    } else if (scrollNum < 0.95) {
+        scrollNum = 0.7;
+    } else if (scrollNum < 1) {
+        scrollNum = 0.8;
+    } else {
+        scrollNum = 1;
+    }
+    document.body.style.setProperty('--scroll', scrollNum);
+}, false);

@@ -2,6 +2,10 @@ p {
     color: whitesmoke;
 }
 
+#happyKid {
+    max-width: 600px;
+}
+
 iframe {
     margin: 30px auto 30px auto;
     border: none;
@@ -30,4 +34,11 @@ img {
 .columns div {
     width: 50%;
     margin-top: 12px;
+}
+
+#teens {
+    max-width: 60vw;
+    margin: 499px auto 299px auto;
+    box-shadow: 0px 0px 30px 20px black;
+    opacity: var(--scroll);
 }
