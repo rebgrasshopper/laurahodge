@@ -4,6 +4,7 @@
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 3px;
+    /* display: none; */
 }
 
 #sampleTracks h2 {
@@ -13,9 +14,6 @@
 }
 
 .audio {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-bottom: 6px;
     padding-bottom: 6px;
 }
@@ -26,7 +24,16 @@
     width: 100%;
 }
 
+.audio audio {
+    width: 90%;
+}
+
 @media screen and (min-width: 800px) {
+    .audio {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .liner {
         display: flex;
         align-items: flex-start;

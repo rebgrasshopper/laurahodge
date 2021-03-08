@@ -4,6 +4,10 @@
     background-color: var(--lGray);
 }
 
+.card img {
+    object-fit: scale-down;
+}
+
 #pastWorks {
     margin-bottom: 200px;
 }
