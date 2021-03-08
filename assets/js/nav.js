@@ -1,14 +1,11 @@
 const navImages = document.getElementsByClassName("navImage");
 
-console.log(navImages)
 
-document.addEventListener("mouseover", function (event) {
+document.addEventListener("mouseover", function(event) {
     let navImg;
-    const width  = window.innerWidth || document.documentElement.clientWidth || 
-document.body.clientWidth;
-    console.log(width)
-    if (event.target.text && width >= 1200){
-        console.log()
+    const width = window.innerWidth || document.documentElement.clientWidth ||
+        document.body.clientWidth;
+    if (event.target.text && width >= 1200) {
         switch (event.target.text.replace("(current)", "")) {
             case "Home":
                 navImg = navImages[0]
@@ -28,7 +25,7 @@ document.body.clientWidth;
             case "Classic Laura":
                 navImg = navImages[5]
                 break;
-    
+
             default:
                 break;
         }
@@ -36,9 +33,9 @@ document.body.clientWidth;
     }
 })
 
-document.addEventListener("mouseout", function (event) {
+document.addEventListener("mouseout", function(event) {
     let navImg;
-    if (event.target.text){
+    if (event.target.text) {
 
         switch (event.target.text.replace("(current)", "")) {
             case "Home":
@@ -59,10 +56,13 @@ document.addEventListener("mouseout", function (event) {
             case "Classic Laura":
                 navImg = navImages[5]
                 break;
-    
+
             default:
                 break;
         }
         navImg.setAttribute("style", "display:none")
     }
 })
+
+
+console.log("Dancer icons in menu by artist orangereebok via vecteezy.com");

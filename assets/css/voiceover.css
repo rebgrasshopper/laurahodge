@@ -1,6 +1,44 @@
 #sampleTracks {
-    background-color: beige;
+    background-color: var(--lGray);
     color: #333;
     padding: 20px;
     margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+#sampleTracks h2 {
+    border-bottom: #6600a1 1px solid;
+    max-width: max-content;
+    margin: auto auto 30px auto;
+}
+
+.audio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+
+.audio p {
+    margin-bottom: 0px;
+    margin-right: 30px;
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    .liner {
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .liner:after {
+        content: '';
+        flex-grow: 1;
+        height: 1px;
+        background: linear-gradient(to right, #333, #c05aff);
+        min-width: 20px;
+        margin: auto;
+        margin-left: 6px;
+    }
 }
