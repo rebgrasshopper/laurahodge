@@ -94,3 +94,14 @@ window.addEventListener('scroll', () => {
     }
     document.body.style.setProperty('--scroll', scrollNum);
 }, false);
+
+
+function contactLaura() {
+    let connectMenu = document.getElementsByClassName("connectMenu")[0];
+    if (connectMenu.classList.contains("close")) {
+        connectMenu.classList.remove("close");
+    } else {
+        connectMenu.classList.add("close");
+    }
+
+}
