@@ -9,6 +9,15 @@
     box-sizing: border-box;
 }
 
+iframe {
+    border: none;
+    width: 60vw;
+    height: 37vw;
+    object-fit: scale-down;
+    max-height: 380px;
+    max-width: 640px;
+}
+
 body {
     text-align: center;
     background-image: url();
@@ -53,6 +62,7 @@ hr {
     background-color: var(--dGray);
     min-height: 50vh;
     margin-bottom: 100px;
+    min-width: min-content;
 }
 
 .main img {

@@ -1,0 +1,33 @@
+p {
+    color: whitesmoke;
+}
+
+iframe {
+    margin: 30px auto 30px auto;
+    border: none;
+    border-radius: 3px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.subjects {
+    background-color: var(--lGray);
+    color: #333 !important;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.subjects p {
+    color: #333;
+}
+
+.columns {
+    display: flex;
+}
+
+.columns div {
+    width: 50%;
+    margin-top: 12px;
+}
