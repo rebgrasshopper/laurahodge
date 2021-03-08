@@ -5,8 +5,10 @@
 }*/
 
 .images {
-    width: 480px;
-    height: 500px;
+    width: 90vw;
+    height: 90vw;
+    max-width: 480px;
+    max-height: 500px;
     margin-top: 5%;
     object-fit: cover;
     background-image: url("../images/lauraPhotos/lauraBW1.jpg");
@@ -16,8 +18,10 @@
 }
 
 .more {
-    width: 480px;
-    height: 500px;
+    width: 90vw;
+    height: 90vw;
+    max-width: 480px;
+    max-height: 500px;
     margin-top: 5%;
     object-fit: cover;
     background-image: url("../images/lauraPhotos/lauraBW2.jpg");
