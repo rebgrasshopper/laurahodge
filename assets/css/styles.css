@@ -32,6 +32,7 @@ body {
 }
 
 h1 {
+    font-size: 40px !important;
     color: transparent;
     text-align: center;
     color: white;
@@ -167,6 +168,6 @@ hr {
 
 @media screen and (min-width: 800px) {
     h1 {
-        font-size: 40px;
+        font-size: 80px !important;
     }
 }
