@@ -17,6 +17,12 @@
     margin: auto;
 }
 
+a #lauraInterview {
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0px 0px 30px 20px black;
+}
+
 .more {
     width: 90vw;
     height: 90vw;
